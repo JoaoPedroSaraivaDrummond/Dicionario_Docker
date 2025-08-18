@@ -1,0 +1,19 @@
+6. docker exec
+
+👉 Executa um comando dentro de um container que já está rodando.
+
+Estrutura:
+
+docker exec [opções] <container> <comando>
+
+
+Opções úteis:
+
+-it → abre modo interativo.
+
+Exemplo:
+
+docker exec -it meu_ubuntu bash
+
+
+(entra no terminal de um container em execução).

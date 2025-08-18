@@ -1,0 +1,19 @@
+Container
+
+Um container é uma imagem em execução.
+
+Ele é como um processo isolado, rodando dentro do seu sistema, mas separado por camadas de isolamento do Docker.
+
+Vantagens:
+
+Roda em qualquer lugar que tenha Docker.
+
+É leve (muito mais rápido que uma VM).
+
+Pode ser descartado e recriado facilmente.
+
+Analogia:
+
+Imagem = receita de bolo.
+
+Container = o bolo pronto.

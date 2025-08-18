@@ -1,0 +1,7 @@
+Docker Hub
+
+É como um repositório de imagens Docker.
+
+Público por padrão, mas pode ter privado também.
+
+Lá você encontra imagens oficiais (Node, MySQL, Python, Nginx, etc.) e também pode enviar as suas.

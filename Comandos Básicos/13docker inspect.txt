@@ -1,0 +1,7 @@
+13. docker inspect
+
+👉 Mostra informações detalhadas em formato JSON sobre um container ou imagem.
+
+Estrutura:
+
+docker inspect <id ou nome>

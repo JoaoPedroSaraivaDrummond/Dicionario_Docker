@@ -1,0 +1,12 @@
+7. docker stop
+
+👉 Para um container em execução de forma "elegante".
+
+Estrutura:
+
+docker stop <container_id ou nome>
+
+
+Exemplo:
+
+docker stop meu_ubuntu

@@ -1,0 +1,27 @@
+4. docker pull
+
+👉 Baixa uma imagem do Docker Hub (ou outro registry).
+
+Estrutura:
+
+docker pull <imagem>:<tag>
+
+Exemplo:
+
+docker pull mysql:8
+
+----------------------------------
+
+Não é obrigatório colocar a tag.
+
+Como funciona:
+
+Quando você usa:
+
+docker pull ubuntu
+
+
+O Docker automaticamente assume a tag latest.
+Então isso equivale a:
+
+docker pull ubuntu:latest

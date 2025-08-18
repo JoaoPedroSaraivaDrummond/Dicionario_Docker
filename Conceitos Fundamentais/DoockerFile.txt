@@ -1,0 +1,20 @@
+Dockerfile em Detalhes
+
+Um Dockerfile é um arquivo de texto que contém instruções sequenciais para o Docker construir uma imagem personalizada.
+Cada linha do Dockerfile gera uma camada (layer) na imagem. Essas camadas ficam em cache, o que deixa a reconstrução muito mais rápida.
+
+Estrutura básica de um Dockerfile
+
+Um Dockerfile segue geralmente essa ordem:
+
+FROM → Define a imagem base.
+
+WORKDIR → Define o diretório de trabalho dentro da imagem.
+
+COPY / ADD → Copia arquivos do host para dentro da imagem.
+
+RUN → Executa comandos durante a construção da imagem.
+
+EXPOSE → Expõe uma porta para comunicação.
+
+CMD ou ENTRYPOINT → Define o comando que será executado quando o container iniciar.

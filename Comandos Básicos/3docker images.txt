@@ -1,0 +1,9 @@
+3. docker images
+
+👉 Lista todas as imagens disponíveis no seu computador.
+
+Mostra nome, tag, ID e tamanho.
+
+Exemplo:
+
+docker images

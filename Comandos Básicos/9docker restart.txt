@@ -1,0 +1,7 @@
+9. docker restart
+
+👉 Reinicia um container.
+
+Estrutura:
+
+docker restart <container_id ou nome>

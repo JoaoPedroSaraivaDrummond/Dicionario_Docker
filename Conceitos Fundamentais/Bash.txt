@@ -1,0 +1,3 @@
+O que é o Bash?
+é um interpretador de comandos usado em sistemas Unix/Linux.
+Ele serve como a interface entre o usuário e o sistema operacional: você digita comandos, e o Bash executa.

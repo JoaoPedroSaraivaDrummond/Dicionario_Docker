@@ -1,0 +1,11 @@
+Volume
+
+Área de armazenamento que o container pode acessar fora dele.
+
+Serve para que os dados não se percam quando o container é removido.
+
+Exemplo: você roda um banco de dados (MySQL).
+
+Sem volume → os dados somem se o container for apagado.
+
+Com volume → os dados ficam salvos no host.

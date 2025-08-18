@@ -1,0 +1,13 @@
+2. docker ps
+
+👉 Lista os containers que estão rodando no momento.
+
+Opções úteis:
+
+-a → lista todos os containers (ativos e parados).
+
+-q → mostra só os IDs.
+
+Exemplo:
+
+docker ps -a

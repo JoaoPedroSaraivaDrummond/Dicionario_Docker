@@ -1,0 +1,12 @@
+5. docker build
+
+👉 Constrói uma imagem a partir de um Dockerfile.
+
+Estrutura:
+
+docker build -t nome:tag .
+
+
+Exemplo:
+
+docker build -t minha-api:1.0 .

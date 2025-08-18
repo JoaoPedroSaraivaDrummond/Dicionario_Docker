@@ -1,0 +1,9 @@
+16. docker system prune
+
+👉 Remove containers, volumes, redes e imagens não utilizados.
+
+Útil para liberar espaço.
+
+Exemplo:
+
+docker system prune -a

@@ -1,0 +1,12 @@
+11. docker rmi
+
+👉 Remove uma imagem.
+
+Estrutura:
+
+docker rmi <imagem_id ou nome:tag>
+
+
+Exemplo:
+
+docker rmi ubuntu:latest

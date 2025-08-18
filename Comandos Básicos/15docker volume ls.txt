@@ -1,0 +1,7 @@
+15. docker volume ls
+
+👉 Lista os volumes criados no Docker.
+
+Exemplo:
+
+docker volume ls

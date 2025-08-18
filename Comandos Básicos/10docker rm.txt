@@ -1,0 +1,12 @@
+10. docker rm
+
+👉 Remove um container (precisa estar parado).
+
+Estrutura:
+
+docker rm <container_id ou nome>
+
+
+Exemplo:
+
+docker rm meu_ubuntu

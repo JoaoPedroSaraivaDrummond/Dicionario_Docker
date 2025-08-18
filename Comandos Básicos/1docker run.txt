@@ -1,0 +1,25 @@
+1. docker run
+
+👉 Cria e inicia um container a partir de uma imagem.
+
+Estrutura:
+
+docker run [opções] <imagem> [comando]
+
+
+Opções úteis:
+
+-it → modo interativo com terminal.
+
+--name → dá um nome ao container.
+
+-d → roda em segundo plano (detached).
+
+-p 8080:80 → mapeia portas (host:container).
+
+Exemplo:
+
+docker run -it --name meu_ubuntu ubuntu bash
+
+
+(abre um terminal interativo dentro de um Ubuntu).

@@ -1,0 +1,16 @@
+12. docker logs
+
+👉 Mostra os logs de um container.
+
+Estrutura:
+
+docker logs <container_id ou nome>
+
+
+Opções úteis:
+
+-f → acompanha em tempo real.
+
+Exemplo:
+
+docker logs -f minha-api

@@ -1,0 +1,7 @@
+Rede (Network)
+
+Containers podem se comunicar entre si ou com o mundo externo.
+
+Docker cria por padrão a rede bridge, mas você pode criar redes personalizadas.
+
+Útil para quando você tem vários serviços (ex: um container com Node.js e outro com MySQL).

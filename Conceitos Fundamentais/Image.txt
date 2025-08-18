@@ -1,0 +1,17 @@
+Imagem (Image)
+
+Pense nela como uma fotografia congelada de um ambiente.
+
+Ela contém:
+
+O sistema base (Ubuntu, Alpine, Debian, etc.).
+
+As dependências (bibliotecas, pacotes).
+
+A aplicação que você quer rodar.
+
+Não muda sozinha — é imutável.
+
+Você pode compartilhar imagens no Docker Hub (como se fosse um GitHub para ambientes).
+
+Exemplo: a imagem nginx:latest já vem pronta para rodar um servidor web Nginx.

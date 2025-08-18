@@ -1,0 +1,7 @@
+14. docker network ls
+
+👉 Lista as redes disponíveis no Docker.
+
+Exemplo:
+
+docker network ls

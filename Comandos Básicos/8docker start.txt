@@ -1,0 +1,12 @@
+8. docker start
+
+👉 Inicia um container que já foi criado anteriormente (parado).
+
+Estrutura:
+
+docker start <container_id ou nome>
+
+
+Exemplo:
+
+docker start meu_ubuntu
