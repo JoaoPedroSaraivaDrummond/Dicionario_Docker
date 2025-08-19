@@ -1,24 +1,49 @@
-docker pull dockersamples/static-site ---->
+*docker pull dockersamples/static-site ----> Ele faz o download da imagem 
+dockersamples/static-site do Docker Hub (o repositório oficial de imagens Docker).
 
-docker run dockersamples/static-site ---->
 
-docker ps ---->
+*docker run dockersamples/static-site ----> O Docker vai procurar pela imagem dockersamples/static-site localmente,
+Se não existir, ele automaticamente vai fazer o pull do Docker Hub, Ele cria e inicia um container baseado nessa imagem.
 
-docker stop -t 0 ID ---->
 
-docker run -P -d dockersamples/static-site ---->
+*docker ps ----> Ele lista apenas os containers que estão em execução no momento.
 
-docker ps ---->
 
-dokcer port ID ---->
+*docker stop -t 0 ID ----> Ele serve para parar um container em execução, 
+-t 0 → define o tempo limite de espera (em segundos) antes de forçar a parada.
 
-docker stop -t 0 ---->
 
-docker ps ---->
+*docker run -P -d dockersamples/static-site ----> docker run → cria e executa um container, -d → roda em modo "detached" (segundo plano),
+-P (maiúsculo) → pEle mapeia automaticamente todas as portas expostas pela imagem (EXPOSE) para portas aleatórias disponíveis no host.
 
-docker run -p 5000:80 -d dockersamples/static-site ---->
 
-docker port ID ---->
+*docker ps ----> Ele lista apenas os containers que estão em execução no momento.
+
+
+*dokcer port ID ----> Mostra quais portas do host estão mapeadas para as portas do container.
+
+
+*docker stop -t 0 ID ---->Ele serve para parar um container em execução, 
+-t 0 → define o tempo limite de espera (em segundos) antes de forçar a parada.
+
+
+*docker ps ----> Ele lista apenas os containers que estão em execução no momento.
+
+
+*docker run -p 5000:80 -d dockersamples/static-site ----> docker run → cria e executa um container, -d → roda em modo detached (segundo plano),
+-p mapeia porta 5000 do host → porta 80 do container, você escolhe exatamente qual porta usar no host.
+
+
+*docker port ID ----> Mostra quais portas do host estão mapeadas para as portas do container.
+
+
+*docker history dockersamples/static-site:latest | grep AUTHOR ----> Mostra o histórico de camadas da imagem, 
+O grep é usado para filtrar linhas que contenham "AUTHOR".
+
+
+*docker run -p 80:80 -d -e AUTHOR="João Pedro" dockersamples/static-site ----> -p Mapeia a porta 80 do host para a porta 80 do container, 
+define uma variável de ambiente dentro do container.
+
 
 
 
