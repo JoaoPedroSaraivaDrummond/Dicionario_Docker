@@ -1,0 +1,30 @@
+docker pull dockersamples/static-site ---->
+
+docker run dockersamples/static-site ---->
+
+docker ps ---->
+
+docker stop -t 0 ID ---->
+
+docker run -P -d dockersamples/static-site ---->
+
+docker ps ---->
+
+dokcer port ID ---->
+
+docker stop -t 0 ---->
+
+docker ps ---->
+
+docker run -p 5000:80 -d dockersamples/static-site ---->
+
+docker port ID ---->
+
+
+
+
+
+
+
+
+
