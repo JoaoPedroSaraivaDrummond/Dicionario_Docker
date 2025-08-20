@@ -1,0 +1,27 @@
+touch Dockerfile ----> 
+
+ls ---->
+
+*git clone https://github.com/techeducabr/curso-docker-essencial-card-business.git* ---->
+
+ls ---->
+
+cd curso-docker-essencial/ ---->
+
+cd card-business/ ---->
+
+ls ---->
+
+code . ---->
+
+*DENTRO DO VS*
+
+python3 -m venv venv ---->
+
+ls ---->
+
+source venv/bin/activate ---->
+
+*pip install --no-cache-dir -r requirements.txt ----> 
+
+python app.py ---->
