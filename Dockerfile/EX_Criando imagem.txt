@@ -1,8 +1,11 @@
+Criando iamgem a partir de uma aplicação python:
+
+
 touch Dockerfile ----> 
 
 ls ---->
 
-*git clone https://github.com/techeducabr/curso-docker-essencial-card-business.git* ---->
+git clone https://github.com/techeducabr/curso-docker-essencial-card-business.git ---->
 
 ls ---->
 
@@ -14,7 +17,10 @@ ls ---->
 
 code . ---->
 
-*DENTRO DO VS*
+
+
+**DENTRO DO TERMINAl DO VS**
+
 
 python3 -m venv venv ---->
 
@@ -22,6 +28,55 @@ ls ---->
 
 source venv/bin/activate ---->
 
-*pip install --no-cache-dir -r requirements.txt ----> 
+pip install --no-cache-dir -r requirements.txt ----> 
 
 python app.py ---->
+
+sudo apt install python3.12-venv ---->
+
+python3 -m venv venv ---->
+
+ls ---->
+
+source venv/bin/activate ---->
+
+pip install --no-cache-dir -r requirements.txt ---->
+
+pip install "werkzeug==2.3.7" ---->
+
+python3 app.py ---->
+
+
+
+**NO VS**
+
+CRIAR ARQUIVO Dockerfile NA APLICAÇÃO
+
+Dentro do Dockerfile:
+
+FROM ubuntu:22.04
+
+RUN apt-get update && apt-get install python3.11 python3.11-dev python3-pip -y
+
+EXPOSE 8080
+
+ENV LOGOMARCA="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Ffirst-logo&psig=AOvVaw0hplUC7IrZfE5BCxewcnvJ&ust=1755871173685000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDXif-HnI8DFQAAAAAdAAAAABAL"
+ENV FOTO="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fpt%2Fdesktop-wallpaper-kkljr&psig=AOvVaw0Bv4tU9jW1g6eOJz1DBfU8&ust=1755871105531000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCND0w-WHnI8DFQAAAAAdAAAAABAX"
+ENV NOME="João Pedro"
+ENV IDADE="20"
+ENV EMAIL="jpedrosdrummond@gmail.com"
+ENV PROFISSAO="Devops"
+ENV SITE="https://www.youtube.com"
+
+CMD [ "python3", "app.py" ]
+
+
+**DENTRO DO TERMINAl DO VS**
+
+docker build -t meu-app-python:v1 .
+
+docker images
+
+docker ps
+
+docker run -it -p 8080:8080 meu-app-python:v1
