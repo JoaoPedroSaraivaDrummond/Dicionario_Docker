@@ -1,0 +1,1 @@
+ctrl + p + q ----> Para sair de um container e continuar em exucução.

@@ -8,6 +8,11 @@ Opções úteis:
 
 -q → mostra só os IDs.
 
+-ef → é um comando muito comum no Linux para exibir um 
+instantâneo dos processos em execução no sistema, -e 
+Este é um parâmetro que significa "every" (todos), -f
+Este parâmetro significa "full" (completo).
+
 Exemplo:
 
 docker ps -a
