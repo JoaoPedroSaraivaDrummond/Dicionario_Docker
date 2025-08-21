@@ -1,0 +1,21 @@
+O comando apt-get update é utilizado para atualizar a lista de 
+pacotes disponíveis para o seu sistema Linux. É importante notar 
+que este comando não instala ou atualiza programas, ele apenas 
+sincroniza o seu catálogo de pacotes com os repositórios oficiais.
+
+Como Funciona
+sudo: É a sigla para "Super User Do". É necessário para
+executar o comando com permissões de administrador.
+
+apt-get: A ferramenta de linha de comando para gerenciar 
+pacotes em sistemas baseados em Debian e Ubuntu.
+
+update: Este é o subcomando que diz ao apt-get para baixar as 
+informações mais recentes sobre os pacotes disponíveis das fontes 
+listadas em arquivos como /etc/apt/sources.list.
+
+
+
+
+
+  apt-get update

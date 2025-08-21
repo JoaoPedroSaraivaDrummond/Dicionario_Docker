@@ -1,0 +1,7 @@
+ comando docker rm -f <container_id ou nome> é usado 
+ para remover um ou mais contêineres do Docker. A flag -f, 
+ que significa force (forçar), faz com que o Docker pare e 
+ remova o contêiner mesmo que ele ainda esteja em execução.
+
+
+   docker rm -f ID

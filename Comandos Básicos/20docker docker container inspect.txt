@@ -1,0 +1,5 @@
+O comando docker container inspect é usado para exibir 
+informações detalhadas sobre a configuração e o estado de 
+ou mais contêineres Docker. Ele retorna um arquivo JSON com uma vasta quantidade de dado
+
+  docker container inspect ID

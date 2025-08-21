@@ -1,0 +1,6 @@
+O comando docker container unpause é usado para 
+retomar um ou mais contêineres que foram previamente 
+pausados com o comando docker pause.
+
+
+  docker container unpause ID

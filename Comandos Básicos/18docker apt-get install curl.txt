@@ -1,0 +1,23 @@
+O que cada parte do comando faz:
+
+
+sudo: É a sigla para "Super User Do". Este comando é usado para 
+executar o próximo comando com permissões de administrador, 
+o que é necessário para instalar programas no sistema.
+
+apt-get: É a ferramenta de linha de comando para gerenciar pacotes 
+de software em sistemas baseados em Debian. Ele é usado para buscar, 
+atualizar e remover programas de repositórios oficiais.
+
+install: É o subcomando que instrui o apt-get a 
+instalar o pacote que será especificado a seguir.
+
+curl: Este é o nome do pacote que você deseja instalar.
+O Curl é uma ferramenta de linha de comando para transferir dados com URLs. 
+Ele é extremamente útil para desenvolvedores, para testar APIs, baixar arquivos ou interagir com serviços web.
+
+
+  apt-get install curl
+
+
+

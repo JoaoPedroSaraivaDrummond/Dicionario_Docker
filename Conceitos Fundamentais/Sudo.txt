@@ -1,0 +1,5 @@
+sudo: 
+
+É a sigla para "Super User Do". Este comando é usado para 
+executar o próximo comando com permissões de administrador, 
+o que é necessário para instalar programas no sistema
